@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100vh;
+	font-family: 'Poppins';
+
+}
+
+.webgl {
+	position: fixed;
+	top: 0;
+	left: 0;
+	outline: none;
+}
+
+#container-hero{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 30%;
+}
+
+.header{
+    font-size: 64px;
+    display: block;
+    margin-bottom: 32px;
+}
+
+.desc{
+    font-size: 22px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 64px;
+}
+
+.btn{
+    width: 25%;
+    height: 48px;
+    border-radius:16px;
+    border: none;
+    font-size: 16px;
+    font-weight: medium;
+    background-color:#cac9c7;
+    
+}
